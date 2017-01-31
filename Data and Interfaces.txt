@@ -1,0 +1,17 @@
+Data is raw facts.
+Information is parsed data, and is more useful. 
+
+Java has a API, reuseable library of methods
+
+Java and OO is lowering the cost of coding by reducing man power and increasing reusibility.
+Java API code may not be optimized or custom, but it is cost affective. 
+Sometimes using standard code that is slower is better when optimization is not necassary. 
+
+An interface is a way to use libraries of code 
+
+public interface Foobar{
+  public int doSomegthing(int x){}
+  public boolean doSomethingElse(String x){}
+}
+
+Do not do things linearly 
