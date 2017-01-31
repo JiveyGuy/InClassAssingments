@@ -1,0 +1,20 @@
+base 10 to base 2,
+  1. see how many places of percision here are, example 1010 has 4 places.
+  2. subract one from the number.
+  3. then expand the number as a multiple of the base to the power of the place. 
+  4. 1010 = 1 * 2^3 + 0 * 2^2 + 1 * 2^1 + 0 * 2^0 = 10 
+      therefore, 1010_2 = 10_10
+      
+To convert from base 2 to base 10:
+  1. first make the number equal to the power of the numeric value of the base to be converted into:
+     The Process:
+        Above each of the digits in your number, list the power of the base that the digit represents.  See the example on the left.  It is now a simple process of multiplication and addition to determine your base 10 number.  In this example you have
+        5 x 8^0 = 5  
+        3 x 8^1 = 24
+        2 x 8^2 = 128	Now simply add these values together.
+        5 + 24 + 128 = 157
+        Answer: 2358 = 15710
+        
+        
+        
+ 
