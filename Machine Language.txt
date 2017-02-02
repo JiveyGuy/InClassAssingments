@@ -22,5 +22,8 @@ To convert from base 2 to base 10:
       EX:   1010100000 leave all he 0's alone and the first oen then inverse, 0101100000. 
         
 
-        
+    1. fetch instructions from ram
+    2. Decode instructions at Instruction Register
+    3. Execute instructions at Arithmetic Logic Unit 
+    4. Program Counter incriments    
  
