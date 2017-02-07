@@ -29,6 +29,16 @@ To convert from base 2 to base 10:
  
 Reduced Instruction set Computer = RISC computer
         ~Hi9gher level functions done at higher level
+        ~Slower
+        ~Less cycles
 
 Complex Instruction Set Comput = CISC computer
         ~Complex functions at hardware level
+        ~Costs more
+        ~Faster
+        ~More cycles
+        
+To subtract in boolean algerbra
+      ~Negate x
+      ~add y
+      ~Negate answer
