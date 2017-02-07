@@ -27,3 +27,8 @@ To convert from base 2 to base 10:
     3. Execute instructions at Arithmetic Logic Unit 
     4. Program Counter incriments    
  
+Reduced Instruction set Computer = RISC computer
+        ~Hi9gher level functions done at higher level
+
+Complex Instruction Set Comput = CISC computer
+        ~Complex functions at hardware level
