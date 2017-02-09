@@ -15,7 +15,7 @@ To convert from base 2 to base 10:
         3 x 8^1 = 24
         2 x 8^2 = 128	Now simply add these values together.
         5 + 24 + 128 = 157
-        Answer: 2358 = 15710
+        Answer: 235_8 = 157_10
         
  To conver a positive binary number to negative using 2-s compliments take the inverse and add one:
     Or you can look for the first 1 and leave it and everything to the right leave the same and the rest inverse. 
@@ -42,3 +42,5 @@ To subtract in boolean algerbra
       ~Negate x
       ~add y
       ~Negate answer
+      
+Quiz  is on 2's compliment and base conversion. 
