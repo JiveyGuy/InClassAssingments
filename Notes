@@ -1,0 +1,80 @@
+We were last building ram... Before that we build the diff, then we made it based on that{ basically a persistent bit}
+  then we made a register{
+  the differenced is that it was a bit of a certain size with a load;
+  }
+  
+  Let's talk about ram now{
+    We have:
+    Input;
+    Output; 
+    Load;
+    New stuff;
+    Adress; // for ram 8 we have 8 slots we have the base value of 2 that gives us the ram size
+    // EX: 2^3 = 8 so adress size is = 3
+    
+    Input = Input[size];
+    
+    adress = 001;
+    load = 1;
+    input = [0000000000001111];
+    
+    therefore, 
+    ram8bit = {
+        000[0000000000000000],
+        001[0000000000001111],
+        010[0000000000000000],
+        011[0000000000000000],
+        100[0000000000000000],
+        101[0000000000000000],
+        110[0000000000000000],
+        111[0000000000000000]
+    }
+   
+   If the load is 0, then the input is not read. 
+   
+  } 
+  A computer is a  [ HardWare > OS > Terminal > Aplications >  user ] 
+  
+  The role of the OS is to be an interface to the HardWare...it protects the hardware from illegal actions...file management is another
+  Feature along with DEVICE MANAGEMENT and Process Management...
+  
+  If the process is in idle, it is ready to be activated. -but the OS has not called on it to run yet. 
+  
+  a process goes from  
+                          waiting -> ready -> ready -> running -|
+                                     ^                          |
+                                     |--------------------------|
+                                     
+   the two way to deal with many processes is
+   
+  Scheduling Algorithms{
+   
+          ROUND ROBIN{
+                Time is equally split in quanta;
+                
+                while(true){
+                        each process runs for one quantu;
+                }
+                
+          }
+          
+          Priority{
+                  Each process is given priority at different levels;
+                  
+                  if( a.priority > b.priority ){
+                          run a;
+                  }
+          }
+          
+          Time to Completion{
+                  //Only in theory needs work
+                  Smallest one is run first; 
+          }
+          
+          LRR{
+                  The longest run process is pushed to bottom;
+          }
+   
+   }
+   
+   
