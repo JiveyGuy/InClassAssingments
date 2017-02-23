@@ -1,23 +1,44 @@
+/* Jason Ivey
+* 2017
+*
+* Probably the worst program I have ever written....
+*/
+
+
 import java.util.Random;
-public class SortTester{
+public class MaxSumTest{
   
   public static void main(String args[]){
+    
+    //I would write handlers to stop crash and burn.... but, meh....
     int lengthOfArray = Integer.parseInt(args[0]);
+    int numberOfTests = Integer.parseInt(args[1]);
+    
     int[] array = randomGen(lengthOfArray);
     
-    Stopwatch timer0 = new Stopwatch();
-    int maxSum = maxSum(array, lengthOfArray);
-    double time0 = timer0.elapsedTime();
+    Stopwatch timer = new Stopwacth();
     
-    Stopwatch timer1 = new Stopwatch();
-    int maxSumQ = maxSumQ(array, lengthOfArray);
-    double time1 = timer1.elapsedTime();
+    double[] accum = new double[3];
+    accum[ 0 ] = 0.0;
+    accum[ 1 ] = 0.0;
+    accum[ 2 ] = 0.0; //accum stand for accumulator
     
-    Stopwatch timer2 = new Stopwatch();
-    int maxSumK = maxSumK(array, lengthOfArray);
-    double time2 = timer1.elapsedTime();
-    
-    System.out.println( "For " + lengthOfArray + "\nBruteForce: " + time0 + "\nQuadratic: " + time1 + "\nKadane: " + time2);
+    for( int iteration = 0; iterations < numberOfTests; iterations++  ){
+      timer.setTime();
+      int maxSum = maxSum(array, lengthOfArray);
+      accum[ 0 ] = timer.getTime();
+      
+      timer.setTime();
+      maxSum = maxSumQ(array, lengthOfArray);
+      accum[ 1 ] = timer.getTime();
+      
+      timer.setTime();
+      maxSum = maxSumK(array, lengthOfArray);
+      accum[ 2 ] = timer.getTime();
+      
+    } for ( int iterator : accum ) {
+      System.out.println( ( iterator / numberOfTests ) );
+    }
   }
   
   public static int[] randomGen(int n){
