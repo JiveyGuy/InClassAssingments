@@ -1,6 +1,6 @@
 public class Stopwatch { 
   
-  private final long start;
+  private long start;
   
   /**
    * Initializes a new stopwatch.
@@ -17,7 +17,7 @@ public class Stopwatch {
    */
   public double getTime() {
     long now = System.currentTimeMillis();
-    return (now - start) / 1000.0;
+    return (now - start) ;
   }
   
   public void setTime(){
