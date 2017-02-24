@@ -16,37 +16,41 @@ public class MaxSumTest{
     
     int[] array = randomGen(lengthOfArray);
     
-    Stopwatch timer = new Stopwacth();
+    Stopwatch timer = new Stopwatch();
     
     double[] accum = new double[3];
     accum[ 0 ] = 0.0;
     accum[ 1 ] = 0.0;
     accum[ 2 ] = 0.0; //accum stand for accumulator
     
-    for( int iteration = 0; iterations < numberOfTests; iterations++  ){
+    for( int iteration = 0; iteration < numberOfTests; iteration++  ){
+      
       timer.setTime();
       int maxSum = maxSum(array, lengthOfArray);
-      accum[ 0 ] = timer.getTime();
+      accum[ 0 ] += timer.getTime();
       
       timer.setTime();
       maxSum = maxSumQ(array, lengthOfArray);
-      accum[ 1 ] = timer.getTime();
+      accum[ 1 ] += timer.getTime();
       
       timer.setTime();
       maxSum = maxSumK(array, lengthOfArray);
-      accum[ 2 ] = timer.getTime();
+      accum[ 2 ] += timer.getTime();
       
-    } for ( int iterator : accum ) {
-      System.out.println( ( iterator / numberOfTests ) );
+    } for ( double iterator : accum ) {
+      System.out.println( ( iterator / numberOfTests  ) );
     }
   }
   
   public static int[] randomGen(int n){
+    
     int[] result = new int[n];
     Random rand = new Random();
+    
     for(int x = 0; x < n; x++){
       result[x] = rand.nextInt(500) + 1;
     }
+    
     return result; 
   }
   
