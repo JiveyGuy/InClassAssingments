@@ -72,3 +72,4 @@ Know how to make a compare too, returns 0 if equal, -n if less or +n if greater 
   Consider current computer technology with cache we use int int data ttpes is 4 bytes and we us 4kb page size we find an optimnization in our O() = n^2 n square algorith, that allowed us ot move a memeory access outside of the inner loop in the inner loop the lagorith accusses the data sequenriallu and esperimnce a cjacje ,iss ebeur ti,es we cross a page boundray otheOutside of the inner loop it exspericmnes a cache ,miss every other time we miss. What n value will the amotipixaTION MATCH MISS MTCH BENEFIT OF THE OPTIMIZQATION. 
 }
 
+>>Get a better understanding of cache and cacheline
