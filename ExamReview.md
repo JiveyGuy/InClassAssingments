@@ -38,4 +38,32 @@
  Comparable needs `compareTo()` Itorator needs `hasNext()`, `next`, `remove`
  
  Iterator needs a `itorator` object
+ 
+ >public boolean hasNext(){
+ > return true;
+ >}
+ 
+Be able to explain that this means that this object always has next, very unusual.
+  
+Know how to make a compare too, returns 0 if equal, -n if less or +n if greater than. 
+
+}
+
+**Modify**{
+Class Node {
+private Node next;
+private int value;
+public Node( int value ){
+  this.value = value;
+}
+
+class Node <Generic>
+{
+  private Node next;
+  private Generic value;
+  private Node( Generic value ){
+    this.value = value;
+  }
+}
+**You cannot instanciate generics, & you cannot create arrays of generics**
 }
