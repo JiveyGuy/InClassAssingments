@@ -7,3 +7,17 @@
   -Is used for using primitives in generics
   -Also when you need to reffernce instead of value  
 }
+
+`Don''t assume I know everything, explain everything, the more the better.`
+
+**O()**{
+  Categorize algorithms that have those values
+  ```
+  1
+  n^2
+  2^n
+  ```
+  and explain behavior when they grow by a factor of 10
+  -Categorize means describe all 
+  
+}
