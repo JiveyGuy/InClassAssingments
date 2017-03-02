@@ -73,3 +73,16 @@ Know how to make a compare too, returns 0 if equal, -n if less or +n if greater 
 }
 
 >>Get a better understanding of cache and cacheline
+
+**Describe reflexivity, describe symetry, and transitivity**{
+  * used to describe connectivity inside of a network
+  * Networks not only internet but also driving and connecting abstract poirnt
+  
+  Reflexivity = p -> p || when a node is connected to itself,  
+  
+  Symetry = P<-->P || Both nodes are connected to eachother, but nodes may not connected to themselves. 
+  
+  Transitivty = P->Q->R->P || Gendered network, connections are one way 
+}
+
+>>>>>>>>PRIMITAVE ARE INTILIZED TO 0 or NULL
