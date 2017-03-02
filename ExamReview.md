@@ -87,10 +87,10 @@ Know how to make a compare too, returns 0 if equal, -n if less or +n if greater 
 
 >>>>>>>>PRIMITAVE ARE INTILIZED TO 0 or NULL
 
-function algrotim(3)
-if length(a) < 3
-  return a(length(a+1) / 2)
-integer middle = length(a) / 2
-return algorithm(a[middle+1..length(a)])
-  algorithm(a[1..middle]) +
-end
+> function algrotim(3)
+> if length(a) < 3
+>  return a(length(a+1) / 2)
+> integer middle = length(a) / 2
+> return algorithm(a[middle+1..length(a)])
+>  algorithm(a[1..middle]) +
+> end
