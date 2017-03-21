@@ -3,3 +3,7 @@ MSB = big endian
 Largest Value in hack is 2^15
 
 USE the Icode, parser, and icode interfaces
+
+Parser must impliment IParser 
+Enum Days of the week
+
