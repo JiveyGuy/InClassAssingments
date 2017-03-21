@@ -1,0 +1,5 @@
+LSm = Big Endian
+MSB = big endian
+Largest Value in hack is 2^15
+
+USE the Icode, parser, and icode interfaces
